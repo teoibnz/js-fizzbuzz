@@ -9,7 +9,7 @@ for (i = 1; i < 101; i++){
     newDiv.innerHTML = i;
 
     if (i % 3 == 0) {
-        newDiv.innerHTML = "Fuzz"
+        newDiv.innerHTML = "Fizz"
         newDiv.classList.add('text-white', 'fs-5')
         console.log('Fuzz');
     }else if (i % 5== 0){
@@ -18,7 +18,7 @@ for (i = 1; i < 101; i++){
         console.log("Buzz");
     };
     if ((i % 3==0) && (i % 5== 0)){
-        newDiv.innerHTML = "FuzzBuzz"
+        newDiv.innerHTML = "FizzBuzz"
         newDiv.classList.add('text-alert', 'fs-3')
         console.log("FuzzBuzz")
     };
