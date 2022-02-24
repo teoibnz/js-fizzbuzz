@@ -1,0 +1,14 @@
+body{
+    height: 800px;
+}
+
+#user-form{
+    height: 700px;
+    width: 100%;
+    background-color: brown;
+}
+
+#data-section, 
+#ticket-section{
+    height: 40%;
+}
