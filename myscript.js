@@ -1,6 +1,6 @@
 const chess = document.getElementById("chess");
 
-for (i = 0; i < 101; i++){
+for (i = 1; i < 101; i++){
     // creo un nuovo div
     let newDiv = document.createElement('div');
     // inserisco delle classi al nuovo div;
